@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lee Minyoung"
+title                    : "Minyoung Lee"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Lee Minyoung"
+name                     : "Minyoung Lee"
 description              : "An amazing website."
 url                      : "https://MYMY-young.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -115,7 +115,7 @@ author:
       url: "https://drive.google.com/file/d/1ncTnWhUqLmxNxKalAXTGdRiCOhzeqvUe/view?usp=sharing"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:minyoung.elena.lee@gmail.com"
+      url: "mailto:my.elena.lee@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
