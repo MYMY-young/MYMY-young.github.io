@@ -9,7 +9,7 @@ I am an Undergraduate student in Department of Computer Science and Engineering 
 **🎓 Education**
 
   - M.S. in Artificial Intelligence [Mar. 2023 - ]
-    - Sogang University, Seoul. *Expexted Graduation: Feb. 2025*
+    - Sogang University, Seoul. *Expected Graduation: Feb. 2025*
     - **Advisor**: [Junsuk Choe](https://sites.google.com/site/junsukchoe/)
   - B.S. in Computer Science and Engineering [Mar. 2019 - Feb.2023]
     - Sogang University, Seoul.
