@@ -10,6 +10,7 @@ I am an Undergraduate student in Department of Computer Science and Engineering 
 
   M.S. in Department of Artificial Intelligence at Sogang Univ.(Mar. 2023 - )  
   B.S. in Department of Computer Science and Engineering at Sogang Univ.(Mar. 2019 - Present)
+  - Graduated with Magna Cum Laude
 
 **📗 Research Interest**
 
