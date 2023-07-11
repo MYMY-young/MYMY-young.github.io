@@ -16,7 +16,7 @@ I am a M.S. student in Artificial Intelligence at Sogang University. My advisor 
     - **Honors**: *magna cum laude*
 
 **📝 Work**
-  - Visiting Research at [Tübingen AI Center](https://tuebingen.ai/) [June. 2023 - July. 2023]
+  - Visiting Researcher at [Tübingen AI Center](https://tuebingen.ai/) [July. 2023 - Aug. 2023]
 
 **📗 Research Interest**
 
