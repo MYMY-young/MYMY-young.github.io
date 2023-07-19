@@ -126,9 +126,9 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/mymy_young6"
     
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/MYMY-young/"
 
 # Site Footer
 footer:
