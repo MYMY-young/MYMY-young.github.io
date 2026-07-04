@@ -2,7 +2,6 @@
 layout: homepage
 ---
 
-## About Me
 I am a Ph.D. student in Computer Science and Engineering at Sogang University, advised by [Junsuk Choe](https://sites.google.com/site/junsukchoe/). My research focuses on Multi-modal Large Language Models (MLLMs), with interests in understanding their interpretability.
 
 ## Research Interests
