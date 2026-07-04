@@ -209,7 +209,7 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      border-radius: 0;
     }
 
       .image.avatar:before {
@@ -217,14 +217,15 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
-        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        padding: 0px;
+        display: block;
       }
 
     #header .image.avatar {
       margin: 0 0 1em 0;
-      width: 14.00em;
+      width: 220px;
     }
 
 body, h1, h2, h3, h4, h5, h6, p, li, a, dt, th, span, div, strong, position, email, autocolor {
