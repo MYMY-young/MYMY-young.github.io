@@ -11,19 +11,18 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - Bridging vision-language understanding with action and control for robotic systems
 - Efficient learning methods that improve models without additional data or compute
 
-
 </div>
 
 <div class="intro-clear"></div>
 
-## News
+## News {#news}
 - **[Jan. 2026]** 1 paper accepted at ICLR 2026.
 - **[Sept. 2025]** 1 paper accepted at NeurIPS 2025.
 - **[Jan. 2025]** 1 paper accepted in Pattern Recognition Letters (SJR Q1; IF: 3.9).
 - **[Jan. 2025]** Served as a visiting scholar at the Tübingen AI Center (Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)).
 - **[Jul. 2023]** Served as a visiting scholar at the Tübingen AI Center (Hosts: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/) and [Prof. Dr. Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)).
 
-## Education
+## Education {#education}
 - **Ph.D. in Computer Science and Engineering**, Sogang University, Seoul (Mar. 2025 – )
   Advisor: [Junsuk Choe](https://sites.google.com/site/junsukchoe/)
 - **M.S. in Artificial Intelligence**, Sogang University, Seoul (Mar. 2023 – Feb. 2025)
@@ -37,10 +36,6 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - **Visiting Researcher**, Tübingen AI Center (Jul. 2023 – Aug. 2023)
   Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
-
 ## Open-Source Contributions
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) — Contributed the [Mantis multi-image benchmark](https://huggingface.co/datasets/TIGER-Lab/Mantis-Eval).
 
@@ -49,7 +44,10 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - Hacking and Information Security (Fall 2023)
 
 ## Awards and Honors
-- AI Seoul Tech Graduate Scholarship, Seoul Future Foundation, Korea (2026)
 - Digital Human & Entertainment Scholarship, Smilegate, Korea (2023 – 2024)
+- AI Seoul Tech Graduate Scholarship, Seoul Future Talent Foundation, Korea (2026)
 - Jang Jik-hyun Honorary Professor Scholarship, Sogang University, Korea (2022)
 
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %}
