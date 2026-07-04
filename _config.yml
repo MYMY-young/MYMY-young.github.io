@@ -36,7 +36,7 @@ font: "Sans Serif" #"Serif" # or "Sans Serif"
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
 # The following files will be removed from the generated website.
-show_conference_badge: true   # false로 바꾸면 뱃지 안 보임
+show_conference_badge: false   # false로 바꾸면 뱃지 안 보임
 exclude:
   - Gemfile
   - Gemfile.lock
