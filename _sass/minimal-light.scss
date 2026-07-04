@@ -308,7 +308,9 @@ a:hover small {
   max-width: 1500px;
   width: 92%;
   margin: 0 auto;
+  padding-left: 40px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 blockquote {
@@ -445,15 +447,15 @@ section {
   position: static;
   float: none;
   width: auto;
-  max-width: 1250px;
+  max-width: 1200px;
   padding-top:4.0em;
   padding-bottom:50px;
 }
 
 .intro {
   margin-left: 300px;
-  width: 950px;
-  max-width: calc(100% - 300px);
+  width: 900px;
+  max-width: 900px;
   padding-top: 4.0em;
 }
 
@@ -488,6 +490,11 @@ footer {
   }
   .intro {
     margin-left: 0;
+    width: auto;
+    max-width: 100%;
+  }
+  section {
+    max-width: 100%;
   }
 }
 
@@ -501,6 +508,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    padding-left: 15px;
   }
 
   header {
