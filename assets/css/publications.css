@@ -24,8 +24,6 @@
 
 blockquote { background: var(--global-bg-color); border-left: 2px solid var(--global-theme-color); margin: 1.5em 10px; padding: 0.5em 10px; font-size: 1.2rem; }
 
-@media print, screen and (min-width: 480px) {.col-sm-9 {width: 100%;}}
-
 .publications { margin-top: 2rem; }
 
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
@@ -79,4 +77,48 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+/* ===== 이미지/텍스트 레이아웃 깨짐 수정 ===== */
+
+.pub-row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.col-sm-3.abbr {
+  flex: 0 0 auto;
+  width: 270px;
+  max-width: 100%;
+  height: auto;
+}
+
+.col-sm-9 {
+  flex: 1 1 300px;
+  min-width: 250px;
+  width: auto !important;
+}
+
+@media print, screen and (min-width: 480px) {
+  .col-sm-9 {
+    width: auto !important;
+  }
+}
+
+.teaser {
+  width: 270px;
+  height: 123px;
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .col-sm-3.abbr {
+    width: 100%;
+  }
+  .teaser {
+    width: 100%;
+    height: auto;
+  }
+}
