@@ -651,4 +651,44 @@ footer {
   .topbar-social {
     margin-left: 0;
   }
+
+  .wrapper {
+  max-width: 1500px;
+  width: 92%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  float: left;
+  width: 260px;
+  position: static;
+  padding-top: 3em;
+  text-align: center;
+}
+
+section {
+  float: none;
+  width: auto;
+  padding-top: 3em;
+}
+
+.intro {
+  margin-left: 300px;
+}
+
+.intro-clear {
+  clear: both;
+  height: 1px;
+}
+
+@media (max-width: 900px) {
+  header {
+    float: none;
+    width: 100%;
+  }
+  .intro {
+    margin-left: 0;
+  }
+}
 }
