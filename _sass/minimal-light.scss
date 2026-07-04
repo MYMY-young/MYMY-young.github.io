@@ -594,3 +594,61 @@ footer {
   display:none;
   font-family: monospace;
 }
+.topbar-wrapper {
+  max-width: 1400px;
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.topbar .image.avatar {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.topbar .image.avatar img {
+  width: 80px !important;
+  padding: 0 !important;
+}
+
+.topbar-info {
+  flex: 1 1 300px;
+}
+
+.topbar-info h1 {
+  font-size: 26px;
+  margin: 0 0 4px 0;
+  display: inline-block;
+}
+
+.topbar-social {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.main-content {
+  width: 100%;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .topbar-social {
+    margin-left: 0;
+  }
+}
