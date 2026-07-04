@@ -19,7 +19,7 @@ main:
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2026.
     pdf: https://openreview.net/forum?id=7QFf05KrOm
     code: https://github.com/MYMY-young/DelimScaling
-    image: ./assets/img/publications/delimscaling.png
+    image: ./assets/img/publications/DelimScaling.png
 
   - title: "OVS Meets Continual Learning: Towards Sustainable Open-Vocabulary Segmentation"
     authors: Dongjun Hwang, Yejin Kim, <strong>Minyoung Lee</strong>, Seong Joon Oh, Junsuk Choe
