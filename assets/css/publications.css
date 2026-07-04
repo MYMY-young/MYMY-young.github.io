@@ -36,9 +36,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
-.publications ol.bibliography li { min-height: 110px; margin-bottom: 0.5rem; }
+.publications ol.bibliography li { min-height: 110px; margin-bottom: 1.5rem; overflow: visible; }
 
-.publications ol.bibliography li .abbr { height: 8rem; margin-bottom: 0.5rem; }
+.publications ol.bibliography li .abbr {
+  height: auto !important;
+  margin-bottom: 0.5rem;
+  overflow: visible !important;
+}
 
 .publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; position: absolute; top: 8px; left: 16px; }
 
@@ -77,18 +81,6 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser {
-  border-radius: 8px;
-  box-shadow: 3px 3px 6px #888;
-  height: auto !important;
-  width: 200px !important;
-  max-width: 100% !important;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
-  object-fit: contain !important;
-}/* ===== 이미지/텍스트 레이아웃 깨짐 수정 ===== */
-
 .pub-row {
   display: flex;
   align-items: flex-start;
@@ -98,9 +90,10 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .col-sm-3.abbr {
   flex: 0 0 auto;
-  width: 270px;
+  width: 200px;
   max-width: 100%;
-  height: auto;
+  height: auto !important;
+  overflow: visible !important;
 }
 
 .col-sm-9 {
@@ -109,24 +102,23 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   width: auto !important;
 }
 
-@media print, screen and (min-width: 480px) {
-  .col-sm-9 {
-    width: auto !important;
-  }
-}
-
-.teaser {
-  width: 270px;
-  height: 123px;
-  max-width: 100%;
+.publications ol.bibliography li .teaser {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  width: 200px !important;
+  height: auto !important;
+  max-width: 100% !important;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: contain !important;
 }
 
 @media (max-width: 600px) {
   .col-sm-3.abbr {
     width: 100%;
   }
-  .teaser {
-    width: 100%;
-    height: auto;
+  .publications ol.bibliography li .teaser {
+    width: 100% !important;
   }
 }
