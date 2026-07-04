@@ -225,7 +225,7 @@ papertitle {
 
     #header .image.avatar {
       margin: 0 0 1em 0;
-      width: 8.00em;
+      width: 11.00em;
     }
 
 h3, h4, h5, h6 {
@@ -266,7 +266,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:34px;
+}
+body {
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 a {
@@ -296,7 +300,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:1100px;
   margin:0 auto;
 }
 
@@ -356,7 +360,7 @@ img {
 }
 
 header {
-  width:232px;
+  width:260px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -432,7 +436,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:780px;
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
