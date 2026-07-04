@@ -47,10 +47,11 @@
         <div class="topbar-info">
           <h1>{{ site.title }}</h1>
           {% if site.position %}
-          <position style="font-size:1.05rem;">{{ site.position }}</position>
-          {% endif %}
-          {% if site.affiliation %}
-          &nbsp;·&nbsp;<a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+          <position style="font-size:1.10rem;">
+          {{ site.position }}
+          {% if site.affiliation %} @ <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>{% endif %}
+          </position>
+          <br>
           {% endif %}
           {% if site.email %}
           <br><email>{{ site.email }}</email>
