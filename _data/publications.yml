@@ -3,6 +3,7 @@ main:
     authors: <strong>Minyoung Lee</strong>, Jimin Hong, Junsuk Choe
     conference_short: Preprint
     conference: Preprint.
+    image: ./assets/img/publications/omni_attention.png
     
   - title: "Mitigating Cross-Image Information Leakage in LVLMs for Multi-Image Tasks"
     authors: Yeji Park, <strong>Minyoung Lee</strong>, Sanghyuk Chun, Junsuk Choe
@@ -33,7 +34,7 @@ main:
     conference_short: PRL
     conference: Pattern Recognition Letters, 2025. (SJR Q1; IF 3.9)
     pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4918892
-    image: ./assets/img/publications/shiftmatch.png
+    image: ./assets/img/publications/ShiftMatch.png
     notes: ACCV 2024 Workshop on Women in Computer Vision (WiCV)
 
 
