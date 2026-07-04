@@ -1,13 +1,37 @@
 .pub-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
-.pub-row img {
+.col-sm-3.abbr {
+  flex: 0 0 200px;
+  width: 200px;
   max-width: 100%;
   height: auto;
-  flex-shrink: 1;
+  position: relative;
+  overflow: visible;
+}
+
+.col-sm-9 {
+  flex: 1 1 0%;
+  min-width: 250px;
+  width: auto;
+}
+
+.teaser {
+  width: 200px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .col-sm-3.abbr, .teaser {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .social-icons a{
@@ -280,6 +304,9 @@ a:hover small {
 }
 
 .wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
   max-width: 1100px;
   width: 90%;
   margin: 0 auto;
@@ -342,10 +369,10 @@ img {
 }
 
 header {
-  width: 22%;
-  min-width: 200px;
-  float:left;
-  position:fixed;
+  position: static;
+  float: none;
+  width: 260px;
+  flex: 0 0 260px;
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top:4.0em;
   text-align:center
@@ -417,8 +444,11 @@ header ul a strong {
 }
 
 section {
-  width: 70%;
-  float:right;
+  position: static;
+  float: none;
+  width: auto;
+  flex: 1 1 0%;
+  min-width: 0;
   padding-top:4.0em;
   padding-bottom:50px;
 }
@@ -435,19 +465,28 @@ hr {
 }
 
 footer {
-  width:232px;
-  float:left;
-  position:fixed;
-  bottom:30px;
+  position: static;
+  float: none;
+  width: 260px;
   -webkit-font-smoothing:subpixel-antialiased;
   text-align:center;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  header, section, footer {
+    width: 100%;
+    flex: 1 1 100%;
+  }
 }
 
 @media print, screen and (max-width: 960px) {
 
   .pub-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;}
 
   div.wrapper {
@@ -455,14 +494,8 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-
   header {
-    padding-right:320px;
+    padding-right: 0;
   }
 
   section {
@@ -474,12 +507,6 @@ footer {
 
   header a small {
     display:inline;
-  }
-
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
   }
 
    .image.avatar img {
@@ -503,11 +530,6 @@ footer {
     padding:15px;
   }
 
-  .pub-row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;}
-
   header {
     padding:0;
   }
@@ -518,10 +540,6 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-
-  .pub-row {
-    display: block;
-    align-items: center;}
 
   body {
     padding:15px;
