@@ -445,14 +445,16 @@ section {
   position: static;
   float: none;
   width: auto;
+  max-width: 1250px;
   padding-top:4.0em;
   padding-bottom:50px;
 }
 
 .intro {
   margin-left: 300px;
+  width: 950px;
+  max-width: calc(100% - 300px);
   padding-top: 4.0em;
-  overflow: hidden;
 }
 
 .intro-clear {
