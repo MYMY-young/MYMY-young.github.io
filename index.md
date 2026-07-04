@@ -2,13 +2,15 @@
 layout: homepage
 ---
 
+<div class="intro" markdown="1">
+
 I am a Ph.D. student in Computer Science and Engineering at Sogang University, advised by [Junsuk Choe](https://sites.google.com/site/junsukchoe/). My research focuses on Multi-modal Large Language Models (MLLMs), with interests in understanding their interpretability.
 
-## Research Interests
-- **Deep Learning**
-- **Computer Vision**
-- **Large Vision Language Models**
-- **Multi-Image Understanding**
+**Research Interests:** Deep Learning · Computer Vision · Large Vision Language Models · Multi-Image Understanding
+
+</div>
+
+<div class="intro-clear"></div>
 
 ## News
 - **[Jan. 2026]** 1 paper accepted at ICLR 2026.
