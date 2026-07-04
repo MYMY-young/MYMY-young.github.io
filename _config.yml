@@ -28,7 +28,7 @@ enable_footnote: true
 auto_dark_mode: true
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" #"Serif" # or "Sans Serif"
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 # google_analytics: UA-XXXXXXXXX-X
