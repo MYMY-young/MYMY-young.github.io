@@ -77,8 +77,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
-.publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: auto; width: 200px; max-width: 100%; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: contain; }
-/* ===== 이미지/텍스트 레이아웃 깨짐 수정 ===== */
+.publications ol.bibliography li .teaser {
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #888;
+  height: auto !important;
+  width: 200px !important;
+  max-width: 100% !important;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  object-fit: contain !important;
+}/* ===== 이미지/텍스트 레이아웃 깨짐 수정 ===== */
 
 .pub-row {
   display: flex;
