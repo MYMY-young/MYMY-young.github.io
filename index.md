@@ -32,6 +32,10 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - **Visiting Researcher**, Tübingen AI Center (Jul. 2023 – Aug. 2023)
   Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)
 
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %}
+
 ## Open-Source Contributions
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) — Contributed the [Mantis multi-image benchmark](https://huggingface.co/datasets/TIGER-Lab/Mantis-Eval).
 
@@ -40,9 +44,7 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - Hacking and Information Security (Fall 2023)
 
 ## Awards and Honors
+- AI Seoul Tech Graduate Scholarship, Seoul Future Foundation, Korea (2026)
 - Digital Human & Entertainment Scholarship, Smilegate, Korea (2023 – 2024)
-- 장직현 명예교수 장학금, Sogang University, Korea (2022)
+- Jang Jik-hyun Honorary Professor Scholarship, Sogang University, Korea (2022)
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
