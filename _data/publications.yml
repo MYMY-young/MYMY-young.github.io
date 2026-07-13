@@ -1,4 +1,10 @@
 main:
+  - title: "Inserting Random Tokens at the Tail: A Simple Training-Free Input Perturbation for LVLMs"
+    authors: Jimin Hong, <strong>Minyoung Lee</strong>, Junsuk Choe
+    conference_short: Preprint
+    conference: Preprint.
+    image: ./assets/img/publications/TART.png
+    
   - title: "Enhancing Cross-Modal Interactions in Audio-Visual LLMs via Training-Free Attention Injection"
     authors: <strong>Minyoung Lee</strong>, Jimin Hong, Junsuk Choe
     conference_short: Preprint
@@ -8,7 +14,7 @@ main:
   - title: "Mitigating Cross-Image Information Leakage in LVLMs for Multi-Image Tasks"
     authors: Yeji Park, <strong>Minyoung Lee</strong>, Sanghyuk Chun, Junsuk Choe
     conference_short: Preprint
-    conference: Preprint, 2025.
+    conference: Preprint.
     pdf: https://arxiv.org/abs/2508.13744
     code: https://github.com/yejipark-m/FOCUS
     image: ./assets/img/publications/focus.png
