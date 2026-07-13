@@ -34,7 +34,7 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - **Visiting Researcher**, Tübingen AI Center (Jan. 2025 – Feb. 2025)
   Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)
 - **Visiting Researcher**, Tübingen AI Center (Jul. 2023 – Aug. 2023)
-  Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)
+  Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/) and [Prof. Dr. Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)).
 
 ## Open-Source Contributions
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) — Contributed the [Mantis multi-image benchmark](https://huggingface.co/datasets/TIGER-Lab/Mantis-Eval).
