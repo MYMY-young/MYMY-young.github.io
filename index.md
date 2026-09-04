@@ -18,7 +18,7 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 ## News {#news}
 - **[Aug. 2026]** Served as a visiting researcher at Johns Hopkins University (Host: [Prof. Jaemin Cho](https://j-min.io/)).
 - **[Jan. 2026]** 1 paper accepted at ICLR 2026.
-- **[Sept. 2025]** 1 paper accepted at NeurIPS 2025.
+- **[Sep. 2025]** 1 paper accepted at NeurIPS 2025.
 - **[Jan. 2025]** 1 paper accepted in Pattern Recognition Letters (SJR Q1; IF: 3.9).
 - **[Jan. 2025]** Served as a visiting researcher at the Tübingen AI Center (Host: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/)).
 - **[Jul. 2023]** Served as a visiting researcher at the Tübingen AI Center (Hosts: [Prof. Dr. Seong Joon Oh](https://coallaoh.github.io/) and [Prof. Dr. Zeynep Akata](https://www.eml-munich.de/people/zeynep-akata)).
