@@ -17,6 +17,7 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 
 ## News {#news}
 - **[Aug. 2026]** Served as a visiting researcher at Johns Hopkins University (Host: [Prof. Jaemin Cho](https://j-min.io/)).
+- **[Jun. 2026]** Received the AI Seoul Tech Graduate Scholarship.
 - **[Jan. 2026]** 1 paper accepted at ICLR 2026.
 - **[Sep. 2025]** 1 paper accepted at NeurIPS 2025.
 - **[Jan. 2025]** 1 paper accepted in Pattern Recognition Letters (SJR Q1; IF: 3.9).
@@ -47,8 +48,8 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - Hacking and Information Security (Fall 2023)
 
 ## Awards and Honors
-- Digital Human & Entertainment Scholarship, Smilegate, Korea (2023 – 2024)
 - AI Seoul Tech Graduate Scholarship, Seoul Future Talent Foundation, Korea (2026)
+- Digital Human & Entertainment Scholarship, Smilegate, Korea (2023 – 2024)
 - Jang Jik-hyun Honorary Professor Scholarship, Sogang University, Korea (2022)
 
 {% include_relative _includes/publications.md %}
