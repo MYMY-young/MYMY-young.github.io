@@ -26,9 +26,9 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 
 ## Education {#education}
 - **Ph.D. in Computer Science and Engineering**, Sogang University, Seoul (Mar. 2025 – )
-  Advisor: [Junsuk Choe](https://sites.google.com/site/junsukchoe/)
+  Advisor: [Junsuk Choe](https://junsukchoe.github.io/)
 - **M.S. in Artificial Intelligence**, Sogang University, Seoul (Mar. 2023 – Feb. 2025)
-  Advisor: [Junsuk Choe](https://sites.google.com/site/junsukchoe/)
+  Advisor: [Junsuk Choe](https://junsukchoe.github.io/)
 - **B.S. in Computer Science and Engineering**, Sogang University, Seoul (Mar. 2019 – Feb. 2023)
   Honors: magna cum laude
 
