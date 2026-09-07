@@ -15,7 +15,7 @@
   <div class="col-sm-9">
     <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
     <div class="author">{{ link.authors }}</div>
-    <div class="periodical"><em>{{ link.conference }}</em></div>
+    <div class="periodical"><strong><em>{{ link.conference }}</em></strong></div>
     {% if link.notes %}
     <div class="notes">{{ link.notes }}</div>
     {% endif %}
