@@ -372,6 +372,53 @@ hr {
 }
 
 // ---------------------------------------------------------------------------
+// News timeline
+// ---------------------------------------------------------------------------
+.news-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-item {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  flex: 0 0 80px;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.news-desc {
+  flex: 1 1 auto;
+  color: var(--text);
+}
+
+@media (max-width: 560px) {
+  .news-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 12px 0;
+  }
+
+  .news-date {
+    flex: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Content
 // ---------------------------------------------------------------------------
 .content {
