@@ -9,37 +9,7 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 - Bridging vision-language understanding with action and control for robotic systems
 - Efficient learning methods that improve models without additional data or compute
 
-## News {#news}
-<div class="news-list">
-  <div class="news-item">
-    <span class="news-date">Aug 2026</span>
-    <span class="news-desc">Served as a visiting researcher at Johns Hopkins University (Host: <a href="https://j-min.io/">Prof. Jaemin Cho</a>).</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jun 2026</span>
-    <span class="news-desc">Received the AI Seoul Tech Graduate Scholarship.</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jan 2026</span>
-    <span class="news-desc">1 paper accepted at ICLR 2026.</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Sep 2025</span>
-    <span class="news-desc">1 paper accepted at NeurIPS 2025.</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jan 2025</span>
-    <span class="news-desc">1 paper accepted in Pattern Recognition Letters (SJR Q1; IF: 3.9).</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jan 2025</span>
-    <span class="news-desc">Served as a visiting researcher at the Tübingen AI Center (Host: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a>).</span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Jul 2023</span>
-    <span class="news-desc">Served as a visiting researcher at the Tübingen AI Center (Hosts: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a> and <a href="https://www.eml-munich.de/people/zeynep-akata">Prof. Dr. Zeynep Akata</a>).</span>
-  </div>
-</div>
+{% include_relative _includes/news.md %}
 
 ## Education {#education}
 - **Ph.D. in Computer Science and Engineering**, Sogang University, Seoul (Mar. 2025 – )
