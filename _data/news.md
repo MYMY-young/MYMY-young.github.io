@@ -1,0 +1,21 @@
+main:
+  - date: Aug 2026
+    text: 'Served as a visiting researcher at Johns Hopkins University (Host: <a href="https://j-min.io/">Prof. Jaemin Cho</a>).'
+
+  - date: Jun 2026
+    text: 'Received the AI Seoul Tech Graduate Scholarship.'
+
+  - date: Jan 2026
+    text: '1 paper accepted at ICLR 2026.'
+
+  - date: Sep 2025
+    text: '1 paper accepted at NeurIPS 2025.'
+
+  - date: Jan 2025
+    text: '1 paper accepted in Pattern Recognition Letters (SJR Q1; IF: 3.9).'
+
+  - date: Jan 2025
+    text: 'Served as a visiting researcher at the Tübingen AI Center (Host: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a>).'
+
+  - date: Jul 2023
+    text: 'Served as a visiting researcher at the Tübingen AI Center (Hosts: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a> and <a href="https://www.eml-munich.de/people/zeynep-akata">Prof. Dr. Zeynep Akata</a>).'
