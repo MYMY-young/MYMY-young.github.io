@@ -11,43 +11,9 @@ I am a Ph.D. student in Computer Science and Engineering at Sogang University, a
 
 {% include_relative _includes/news.md %}
 
-## Education {#education}
-<div class="entry-list">
-  <div class="entry-item">
-    <div class="entry-title">Ph.D. in Computer Science and Engineering</div>
-    <div class="entry-meta">Sogang University, Seoul · Mar. 2025 – Present</div>
-    <div class="entry-sub">Advisor: <a href="https://junsukchoe.github.io/">Junsuk Choe</a></div>
-  </div>
-  <div class="entry-item">
-    <div class="entry-title">M.S. in Artificial Intelligence</div>
-    <div class="entry-meta">Sogang University, Seoul · Mar. 2023 – Feb. 2025</div>
-    <div class="entry-sub">Advisor: <a href="https://junsukchoe.github.io/">Junsuk Choe</a></div>
-  </div>
-  <div class="entry-item">
-    <div class="entry-title">B.S. in Computer Science and Engineering</div>
-    <div class="entry-meta">Sogang University, Seoul · Mar. 2019 – Feb. 2023</div>
-    <div class="entry-sub">Honors: magna cum laude</div>
-  </div>
-</div>
+{% include_relative _includes/education.md %}
 
-## Work Experience {#work-experience}
-<div class="entry-list">
-  <div class="entry-item">
-    <div class="entry-title">Visiting Researcher, Johns Hopkins University</div>
-    <div class="entry-meta">Aug. 2026 – Nov. 2026</div>
-    <div class="entry-sub">Host: <a href="https://j-min.io/">Prof. Jamin Cho</a></div>
-  </div>
-  <div class="entry-item">
-    <div class="entry-title">Visiting Researcher, Tübingen AI Center</div>
-    <div class="entry-meta">Jan. 2025 – Feb. 2025</div>
-    <div class="entry-sub">Host: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a></div>
-  </div>
-  <div class="entry-item">
-    <div class="entry-title">Visiting Researcher, Tübingen AI Center</div>
-    <div class="entry-meta">Jul. 2023 – Aug. 2023</div>
-    <div class="entry-sub">Host: <a href="https://coallaoh.github.io/">Prof. Dr. Seong Joon Oh</a> and <a href="https://www.eml-munich.de/people/zeynep-akata">Prof. Dr. Zeynep Akata</a></div>
-  </div>
-</div>
+{% include_relative _includes/experience.md %}
 
 ## Open-Source Contributions
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) — Contributed the [Mantis multi-image benchmark](https://huggingface.co/datasets/TIGER-Lab/Mantis-Eval).
