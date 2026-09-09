@@ -1,4 +1,7 @@
 main:
+  - date: Sep 2026
+    text: '1 paper accepted at AACL-IJCNLP 2026.'
+
   - date: Aug 2026
     text: 'Served as a visiting researcher at Johns Hopkins University (Host: <a href="https://j-min.io/">Prof. Jaemin Cho</a>).'
 
