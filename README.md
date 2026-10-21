@@ -163,7 +163,6 @@ https://github.com/yaoyao-liu/minimal-light/blob/b38070cd0b6bce45d8a885f3828549a
 If you hope to edit the publication list without changing the format, you may edit `_data/publications.yml`:
 https://github.com/yaoyao-liu/minimal-light/blob/77b1b3b31d4561091bcd739f37a2e1880e8b5ca5/_data/publications.yml#L3-L11
 
-
 ### Stylesheet
 
 If you'd like to add your own custom styles, you may edit `_sass/minimal-light.scss`.
