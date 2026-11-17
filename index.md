@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-I am a Ph.D. student in Computer Science and Engineering at Sogang University, advised by [Junsuk Choe](https://junsukchoe.github.io/). My research centers on multimodal foundation models, combining text, vision, audio, and action to build systems that are interpretable, efficient, and reliable in practice. My recent interests:
+I am a Ph.D. student in Computer Science and Engineering at Sogang University, advised by [Prof. Junsuk Choe](https://junsukchoe.github.io/). My research centers on multimodal foundation models, combining text, vision, audio, and action to build systems that are interpretable, efficient, and reliable in practice. My recent interests:
 
 - Interpretability of multimodal models and how they integrate information across modalities
 - Robustness and generalization under real-world distribution shifts
